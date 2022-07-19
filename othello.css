@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+h1{
+    background-color: rgb(10, 156, 156);
+    color: white;
+    display: flex;
+    height: 75px;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+}
+.bigbigbox{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.bigbox{
+    display: grid;
+    background-color: rgb(2, 96, 2);
+    grid-template-columns: repeat(8,3vw);
+    grid-template-rows: repeat(8,3vw);
+    position: relative;
+    
+}
+.box{
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    display: flex;
+    cursor: pointer;
+}
+.box:hover{
+    background-color: rgb(218, 158, 238);
+}
+.display{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Reset{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
